@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="pip">Our Member</h1>
+    <div class="input"> 
+            <label>first Name :</label>
+            <input type="text" id="name"> <br>
+            <label>last Name :</label>
+            <input type="text" id="lastname"><br>
+            <label> Age:</label>
+            <input type="text" id="input3"><br>
+            <label>weigth :</label>  
+            <input type="text" id="input4"><br>
+            <label>Objectif:</label>  
+            <input type="radio" id="choice" value="lose weight" name="choice" >lose weight
+            <input type="radio" id="choice" value="gain muscle"name="choice" >gain muscle
+            <input type="radio" id="choice" value="gain weight" name="choice" >gain weight
+            <button id="but" onclick="calculate()">calculate</button>
+    </div>
+    <div id="container"></div>
+   
+<script src="main.js"> </script>  
+</body>
+</html>
